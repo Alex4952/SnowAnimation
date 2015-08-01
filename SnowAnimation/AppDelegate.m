@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+	// 상단 StatusBar를 안보이게
+	[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
 	return YES;
 }
 
